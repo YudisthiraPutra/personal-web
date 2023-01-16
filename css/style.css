@@ -1,0 +1,322 @@
+/********* GENERAL SELECTOR *********/
+body
+{
+    margin: 0;
+    text-align: center;
+
+}
+
+h2
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1;
+    /* or 30% */
+
+    text-align: center;
+
+    color: #D4CEA8;
+}
+
+h3
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1;
+    color: #E5E5CD;
+    margin: 0;
+}
+
+p
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 2;
+    color: #E5E5CD;
+    text-align: justify;
+}
+
+hr
+{
+    width: 5%;
+    border-style: none;
+    border-top: 10px dotted;
+    border-color: #D4CEA8;
+    margin: 50px auto 50px;
+}
+
+
+/********* TAG SELECTOR *********/
+
+/***toolbar***/
+.toolbar
+{
+    position: fixed;
+    width: 1750px;
+    height: 50px;
+    margin: 0;
+    background: #1A130D;
+}
+
+.name
+{
+    position: absolute;
+    width: 270px;
+    height: 24px;
+    left: -37px;
+    margin: 0;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 50px;
+    /* or 200% */
+    
+    text-align: center;
+    
+    color: #D4CEA8;
+}
+
+.aboutme
+{
+    text-align: right;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.563rem;
+    line-height: 50px;
+    color: #D4CEA8;
+    position: absolute;
+    right: 366px;
+}
+
+.contact
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.563rem;
+    line-height: 50px;
+    color: #D4CEA8;
+    position: absolute;
+    right: 55px;
+}
+
+.porto
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.563rem;
+    line-height: 50px;
+    color: #D4CEA8;
+    position: absolute;
+    right: 225px;
+}
+
+
+/*** TOP ***/
+.top
+{
+    width: auto;
+    height: 1000px;
+    
+    background: #E5E5CD;
+}
+
+.title-name
+{
+    position: absolute;
+    width: 688px;
+    height: 119px;
+    left: 500px;
+    top: 154px;
+
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 700;
+    font-size: 6.25rem;
+    line-height: 100px;
+    /* or 100% */
+    text-align: center;
+    color: #000000;
+}
+
+.title-sub
+{
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 595px;
+    top: 270px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100px;
+    /* identical to box height, or 200% */
+    text-align: center;
+    color: #3A2C23;
+}
+
+.headcat
+{
+    width: auto;
+    height: 1000px;
+}
+
+/*** MIDDLE ***/
+.middle
+{
+    background: #1E1E1E;
+    width: auto;
+}
+.profile-p
+{
+    width: 50%;
+    margin: 20px auto 0;
+}
+.skill-row
+{
+    margin: 50px auto 50px;
+    width: 50%;
+}
+
+.profilepic
+{
+    margin-top: 20px;
+    height: 250px;
+}
+.hi
+{
+    margin-bottom: 0px;
+}
+
+.code-image
+{
+    height: 250px;
+    float: left;
+}
+
+.read-image
+{
+    height: 250px;
+    float: right;
+}
+
+.photo-image
+{
+    height: 250px;
+    float:left;
+}
+
+.spotify-image
+{
+    height: 250px;
+    float: right;
+}
+
+.title-skill-web
+{
+    text-align: left;
+}
+
+.title-skill-read
+{
+
+    text-align: right;
+}
+
+.title-skill-photo
+{
+    text-align: left;
+}
+
+.title-skill-spotify
+{
+    text-align: right;
+    font-size: 40px;
+}
+
+.subtitle
+{
+    margin-bottom: 0px;
+}
+.sub-subtitle
+{
+    margin: 0;
+    text-align: center;
+}
+
+/**PORTOFOLIO***/
+
+
+.comingsoon
+{
+    width: 1000px;
+}
+
+.sep-sub-con
+{
+    margin-top: -30px;
+}
+
+/***followme***/
+
+.twitter
+{
+    position: relative;
+    bottom: -20px;
+}
+
+.instagram
+{
+    position: relative;
+    bottom: -17px;
+
+}
+
+.linkedin
+{
+    position: relative;
+    bottom: -20px;
+
+}
+
+.github
+{
+    position: relative;
+    bottom: -20px;
+}
+
+.contact-me
+{
+    padding-bottom: 40px;
+}
+
+/*** BOTTOM ***/
+.bottom
+{
+    background-color: #E5E5CD;
+    height: 100px;
+    width: auto;
+}
+
+.footer-name
+{
+    position: relative;
+    top: 60px;
+    margin: 0;
+    color: #A8A8A8;
+    font-size: 20px;
+    text-align: center;
+}
+
+/********* ID SELECTOR *********/
